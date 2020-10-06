@@ -3,11 +3,14 @@ const client = new Discord.Client();
 
 const fs = require("fs");
 
+const dotenv = require('dotenv')
+
+if(dotenv)
+    dotenv.config()
 
 client.login(process.env.token);
 
 client.commands = new Discord.Collection();
-
 
 fs.readdir("./Commandes/",(error, f) => {
     if(error) console.log(error);
