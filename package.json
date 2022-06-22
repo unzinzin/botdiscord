@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "discord.js": "^12.2.0",
-    "got": "^11.5.0",
+    "got": "^11.8.5",
     "moment": "^2.27.0",
     "fs": "^0.0.1-security"
   },
